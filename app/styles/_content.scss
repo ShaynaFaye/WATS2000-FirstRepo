@@ -1,0 +1,20 @@
+body {
+    color: teal;
+    @include gradient-vertical(#9E0031, #3F5E5A, 0%, 100%);
+}
+
+.marketing {
+    h4 {
+      color: $brand-warning;
+    }
+    p {
+      color: $brand-primary;  
+    }
+}
+
+.container .jumbotron {
+    @include border-top-radius(0px);
+    @include border-bottom-radius(50px);
+}
+
+
