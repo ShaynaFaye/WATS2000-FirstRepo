@@ -40,7 +40,7 @@ module.exports = function (grunt) {
         },
         pages: {
             options: {
-                remote: 'https://github.com/ShaynaFaye/WATS2000-FirstRepo.git',
+                remote: 'git@github.com:ShaynaFaye/WATS2000-FirstRepo.git',
                 branch: 'gh-pages'
             }
         }
